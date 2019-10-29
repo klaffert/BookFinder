@@ -1,0 +1,39 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @favorite.title %>
+</p>
+
+<p>
+  <strong>Author:</strong>
+  <%= @favorite.author %>
+</p>
+
+<p>
+  <strong>Year:</strong>
+  <%= @favorite.year %>
+</p>
+
+<p>
+  <strong>Stars:</strong>
+  <%= @favorite.stars %>
+</p>
+
+<p>
+  <strong>Number of reviews:</strong>
+  <%= @favorite.number_of_reviews %>
+</p>
+
+<p>
+  <strong>Image url:</strong>
+  <%= @favorite.image_url %>
+</p>
+
+<p>
+  <strong>Details:</strong>
+  <%= @favorite.details %>
+</p>
+
+<%= link_to 'Edit', edit_favorite_path(@favorite) %> |
+<%= link_to 'Back', favorites_path %>
